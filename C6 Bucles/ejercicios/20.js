@@ -5,12 +5,11 @@ function sumarHastaNConBreak(n) {
    // Tu código:
    let suma = 0;
    for(let i = 1; i <= n; i++){
-      if(suma > 100){
-         break;
-      }
-      suma += i;
+   suma += i;
+   if(suma > 100){
+      break;
    }
-   return suma;
+} return suma;
 }
 
 module.exports = sumarHastaNConBreak;

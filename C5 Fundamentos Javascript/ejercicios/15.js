@@ -3,7 +3,7 @@ function menosQueNoventa(num) {
   // De lo contrario, retorna false.
   // Tu código:
   if(num < 90) return true;
-  return false;
+    return false;
 }
 
 module.exports = menosQueNoventa;

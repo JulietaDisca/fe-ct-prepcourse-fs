@@ -4,9 +4,9 @@ function esNumeroEntero(numero) {
   // Returna true si lo es, de lo contrario, retorna false.
   // Tu código:
   // Verifica si el tipo de dato es numérico
-  if(typeof numero !== "number" || isNaN(numero)) {
+  if(typeof numero !== "number" || numero === NaN) {
     return false;
-  } else if(Number.isInteger(numero)) {
+  } else if(numero % 1 === 0) {
       return true;
     }  else {
         return false;

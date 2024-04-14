@@ -2,6 +2,11 @@ function duplicarElementos(array) {
   // Duplica (multiplica x2) cada elemento del array de números.
   // Devuelve un array con los duplicados.
   // Tu código:
+  let numMultiplicados = [];
+  for(let i = 0; i < array.length; i++){
+    numMultiplicados.push(array[i] * 2);
+  } 
+  return numMultiplicados;
 }
 
 module.exports = duplicarElementos;
